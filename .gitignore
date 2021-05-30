@@ -1,0 +1,12 @@
+*.binlog
+*.suo
+*.user
+*launchSettings.json
+.vs/
+.vscode/
+__pycache__/
+bin/
+obj/
+x64/
+Debug/
+Release/

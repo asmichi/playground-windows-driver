@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PriorityBooster", "PriorityBooster\PriorityBooster.vcxproj", "{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PriorityBoosterClient", "PriorityBoosterClient\PriorityBoosterClient.vcxproj", "{A17A1111-058B-4CBB-9726-DB11DFEAB789}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}.Debug|x64.ActiveCfg = Debug|x64
+		{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}.Debug|x64.Build.0 = Debug|x64
+		{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}.Debug|x64.Deploy.0 = Debug|x64
+		{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}.Release|x64.ActiveCfg = Release|x64
+		{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}.Release|x64.Build.0 = Release|x64
+		{F80C6CDD-5BCD-45E8-B3FA-2FCA0539714B}.Release|x64.Deploy.0 = Release|x64
+		{A17A1111-058B-4CBB-9726-DB11DFEAB789}.Debug|x64.ActiveCfg = Debug|x64
+		{A17A1111-058B-4CBB-9726-DB11DFEAB789}.Debug|x64.Build.0 = Debug|x64
+		{A17A1111-058B-4CBB-9726-DB11DFEAB789}.Release|x64.ActiveCfg = Release|x64
+		{A17A1111-058B-4CBB-9726-DB11DFEAB789}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7ACE53B-4BF0-46F3-8A82-9C49E0D608E7}
+	EndGlobalSection
+EndGlobal

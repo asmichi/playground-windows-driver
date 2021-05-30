@@ -1,0 +1,10 @@
+#pragma once
+
+struct SetThreadPriorityData
+{
+    HANDLE Thread;
+    int Priority;
+};
+
+constexpr ULONG PRIORITY_BOOSTER_DEVICE = 0x8000;
+constexpr ULONG PRIORITY_BOOSTER_IOCTL_SET_THREAD_PRIORITY = CTL_CODE(PRIORITY_BOOSTER_DEVICE, 0x800, METHOD_NEITHER, FILE_ANY_ACCESS);
